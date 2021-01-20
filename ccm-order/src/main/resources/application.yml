@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    # 应用名称，会在注册中心中显示
+    name: order
+  cloud:
+    nacos:
+      discovery:
+        # 注册中心地址
+        server-addr: 127.0.0.1:8848
+      config:
+        #配置中心地址。
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+user:
+  namex: nacos
+  age: order服务
