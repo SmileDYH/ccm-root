@@ -12,7 +12,7 @@
 
     <modules>
         <!--用户模块-->
-<!--        <module>ccm-user</module>-->
+        <module>ccm-user</module>
         <!--订单模块-->
         <module>ccm-order</module>
         <!--通用父类依赖模块-->

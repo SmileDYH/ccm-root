@@ -25,6 +25,7 @@ public class OrderProviderTest {
 
     @GetMapping("test")
     public String test() {
+        System.out.println("order服务 == /orderProviderTest/test接口");
         return "order 服務的返回的數據:" + age +" "+ name;
     }
 

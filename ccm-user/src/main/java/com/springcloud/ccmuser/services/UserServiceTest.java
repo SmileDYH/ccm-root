@@ -6,4 +6,6 @@ package com.springcloud.ccmuser.services;
  * date: 2021/1/8 0008 20:26
  */
 public interface UserServiceTest {
+
+    public String  userTest(int i);
 }
