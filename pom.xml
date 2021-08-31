@@ -18,7 +18,7 @@
         <!--通用父类依赖模块-->
         <module>ccm-parent</module>
         <!--服务网关模块-->
-<!--        <module>ccm-gateway</module>-->
+        <module>ccm-gateway</module>
         <!--流程管理模块-->
 <!--        <module>ccm-process</module>-->
     </modules>
