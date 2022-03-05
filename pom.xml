@@ -10,6 +10,13 @@
     <description>根项目</description>
     <packaging>pom</packaging>
 
+    <!-- 说明该pom的职责，此项目该pom职责被parent替代 -->
+    <description>
+        1、所有项目顶层，初始化所有项目的通用特性（也就是引用common）。相当于Java的Object
+        2、管理所有依赖包的版本号
+        3、管理私服资源
+    </description>
+
     <modules>
         <!--用户模块-->
 <!--        <module>ccm-user</module>-->
